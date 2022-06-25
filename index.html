@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="main__container">
+      <main class="intro">
+        <section class="intro__left">
+          <div class="intro__left__text">
+            <h1>Learn to code by watching others</h1>
+            <p>
+              See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is
+              invaluable.
+            </p>
+          </div>
+        </section>
+
+        <section class="intro__right">
+          <button href="" class="btn btn--blue"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
+
+          <form action="/" name="form" class="intro__right__form" id="form">
+            <div>
+              <input type="text" name="name" placeholder="First Name" class="input" id="name" />
+              <p class="intro__right__form__alert">First Name cannot be empty</p>
+              <img src="images/icon-error.svg" alt="" class="intro__right__form__alert--img" />
+            </div>
+
+            <div>
+              <input type="text" name="surname" placeholder="Last Name" class="input" id="surname"/ >
+              <p class="intro__right__form__alert">Last Name cannot be empty</p>
+              <img src="images/icon-error.svg" alt="" class="intro__right__form__alert--img" />
+            </div>
+
+            <div>
+              <input type="email" name="email" placeholder="Email Address" class="input" id="email" />
+              <p class="intro__right__form__alert">Looks like this is not an email</p>
+              <img src="images/icon-error.svg" alt="" class="intro__right__form__alert--img" />
+            </div>
+
+            <div>
+              <input type="password" name="password" placeholder="Password" class="input" id="password" />
+              <p class="intro__right__form__alert">Password cannot be empty</p>
+              <img src="images/icon-error.svg" alt="" class="intro__right__form__alert--img" />
+            </div>
+
+            <!-- <a href="#" type="submit" class="btn btn--green">Claim your free trial</a> -->
+            <button href="#" type="submit" class="btn btn--green">Claim your free trial</button>
+            <p class="intro__right__form__terms">
+              By clicking the button, you are agreeing to our <span><a href="#"> Terms and Services</a></span>
+            </p>
+          </form>
+        </section>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

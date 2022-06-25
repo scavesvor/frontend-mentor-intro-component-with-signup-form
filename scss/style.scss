@@ -1,0 +1,126 @@
+@import "config";
+@import "utilities";
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background: rgba($red, 1) url("../images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main__container {
+  width: 1400px;
+  margin: 0 50px;
+}
+
+.intro {
+  max-width: 1110px;
+  height: 560px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  &__left {
+    width: 50%;
+    color: #fff;
+
+    &__text {
+      h1 {
+        font-size: 50px;
+        line-height: 1.2;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+
+  &__right {
+    width: 50%;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
+    &__form {
+      background-color: #fff;
+      // height: 474px;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.12);
+
+      div {
+        position: relative;
+        margin-bottom: 20px;
+
+        input {
+          width: 100%;
+          padding: 1.3em;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding-left: 25px;
+          font-family: inherit;
+          font-weight: 600;
+          color: inherit;
+          outline: none;
+
+          &::placeholder {
+            font-weight: 700;
+          }
+
+          &:focus {
+            border: 1px solid $blue;
+          }
+
+          &.active {
+            border: 1px solid $red;
+          }
+        }
+      }
+
+      &__alert {
+        display: none;
+        font-size: 11px;
+        text-align: right;
+        color: $red;
+        margin-top: 5px;
+        font-weight: 500;
+
+        &.active {
+          display: block;
+        }
+
+        &--img {
+          display: none;
+          position: absolute;
+          top: 18%;
+          right: 5%;
+
+          &.active {
+            display: block;
+          }
+        }
+      }
+
+      &__terms {
+        font-size: 10px;
+        color: $grayish-blue;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 450;
+
+        span {
+          font-weight: 700;
+          color: $red;
+        }
+      }
+    }
+  }
+}
+
+@import "mobile";
