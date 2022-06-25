@@ -1,23 +1,3 @@
-// const inputs = document.getElementsByTagName("input");
-// const email = document.getElementById("email");
-
-// function validateInputs() {
-//   for (let i = 0; i < inputs.length; i++) {
-//     inputs[i].addEventListener("blur", function () {
-//       const errorText = document.getElementsByClassName("intro__right__form__alert");
-//       const errorImg = document.getElementsByClassName("intro__right__form__alert--img");
-
-//       if (!this.value) {
-//         errorText[i].classList.add("active");
-//         errorImg[i].classList.add("active");
-//       } else {
-//         errorText[i].classList.remove("active");
-//         errorImg[i].classList.remove("active");
-//       }
-//     });
-//   }
-// }
-// validateInputs();
 const nameEl = document.getElementById("name");
 const surnameEl = document.getElementById("surname");
 const emailEl = document.getElementById("email");
