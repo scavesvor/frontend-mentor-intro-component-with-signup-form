@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/intro-mockup.png.jpg)
+![](./design/intro-mockup.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/APdev88/frontend-mentor-intro-component-with-signup-form)
+- Live Site URL: [Click Here!](https://intro-component-with-signup-form-ap.netlify.app/)
 
 ## My process
 
@@ -37,7 +37,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- SASS
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Useful resources
